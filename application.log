@@ -1,0 +1,198 @@
+[32m{[39m
+[32m  level: 'info',[39m
+[32m  message: 'Message sent: %s',[39m
+[32m  timestamp: '2024-11-16T19:44:59.248Z'[39m
+[32m}[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:40:48.650Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:41:04.631Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:41:04.641Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:41:22.102Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:41:22.103Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:48:59.234Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:48:59.237Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:49:08.744Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:49:08.746Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:49:23.693Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:49:23.699Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:50:42.628Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:50:42.632Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:52:36.753Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:52:36.758Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:53:50.987Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-16T20:53:50.991Z' }[39m
+[31m{[39m
+[31m  length: 312,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '23505',[39m
+[31m  detail: 'Ключ "(username)=(kamil disko)" уже существует.',[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: 'public',[39m
+[31m  table: 'users',[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: 'users_username_key',[39m
+[31m  file: 'nbtinsert.c',[39m
+[31m  line: '673',[39m
+[31m  routine: '_bt_check_unique',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:30:52.937Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 238,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '08P01',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'postgres.c',[39m
+[31m  line: '1736',[39m
+[31m  routine: 'exec_bind_message',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:32:14.934Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 312,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '23505',[39m
+[31m  detail: 'Ключ "(username)=(kamil disko)" уже существует.',[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: 'public',[39m
+[31m  table: 'users',[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: 'users_username_key',[39m
+[31m  file: 'nbtinsert.c',[39m
+[31m  line: '673',[39m
+[31m  routine: '_bt_check_unique',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:32:29.807Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 220,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '22P02',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: "неименованный портал, параметр $3 = '...'",[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'enum.c',[39m
+[31m  line: '133',[39m
+[31m  routine: 'enum_in',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:33:03.210Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 220,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '22P02',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: "неименованный портал, параметр $3 = '...'",[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'enum.c',[39m
+[31m  line: '133',[39m
+[31m  routine: 'enum_in',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:33:46.114Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 220,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '22P02',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: "неименованный портал, параметр $3 = '...'",[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'enum.c',[39m
+[31m  line: '133',[39m
+[31m  routine: 'enum_in',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:34:02.681Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 220,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '22P02',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: "неименованный портал, параметр $3 = '...'",[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'enum.c',[39m
+[31m  line: '133',[39m
+[31m  routine: 'enum_in',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:34:32.169Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 238,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '08P01',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'postgres.c',[39m
+[31m  line: '1736',[39m
+[31m  routine: 'exec_bind_message',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:34:51.950Z'[39m
+[31m}[39m
