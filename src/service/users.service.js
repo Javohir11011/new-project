@@ -1,4 +1,3 @@
-import email from "../config/email.js";
 import { pool } from "../database/index.js";
 import {
   comparePassword,
@@ -29,8 +28,9 @@ export const register = async (user) => {
 
 export const login = async (user) => {
   try {
+    // console.log(user.email);
     const currentUser = await findUser("email", user.email);
-    // console.log(currentUser);
+    console.log(currentUser);
     if (!currentUser) {
       throw new Error(`user is not defined...`);
     }
@@ -64,7 +64,7 @@ export const login = async (user) => {
 
 export const createUser = async (user) => {
   try {
-    let queryString = `
+    const queryString = `
         insert into users(
         name,
         email,
@@ -110,21 +110,59 @@ export const findUser = async (type, data) => {
   return result.rows[0];
 };
 
-export const updateUser = async (usrerId, user) => {
-  let queryString = `
-  update users
-  set name= $1, username = $2, role=$3`;
-  const update = await findUser("id", usrerId);
-  // console.log(update);
+export const updateUser = async (userId, user) => {
+  const queryString = `
+    UPDATE users
+    SET name = $1, username = $2, email = $3, role = $4
+    WHERE id = $5
+    RETURNING *;
+  `;
+  const update = await findUser("id", userId);
+  console.log(update);
   if (!update) {
     throw new Error("User not found");
   }
   const result = await pool.query(queryString, [
-    user.name,
-    user.username,
-    user.email,
-    user.role,
+    user.name || update.name,
+    user.username || update.userId,
+    user.email || update.email,
+    user.role || update.user,
+    userId || update.id,
   ]);
-
   return result.rows[0];
+};
+
+export const deleteUser = async (userId) => {
+  const queryString = `
+    DELETE FROM users
+    WHERE id = $1
+    RETURNING *;
+  `;
+
+  const result = await pool.query(queryString, [userId]);
+
+  if (!result) {
+    throw new Error("User not found");
+  }
+  return result.rows[0];
+};
+export const getAllUsers = async () => {
+  const queryString = `
+  select * from users`;
+
+  const all = await pool.query(queryString);
+  if (!all) {
+    throw new Error("Users not found!!!");
+  }
+  return all.rows;
+};
+
+export const getByIdUsers = async (userId) => {
+  const queryString = `
+  select * from users where id = $1`;
+  const all = await pool.query(queryString, [userId]);
+  if (!all) {
+    throw new Error("Users not found!!!");
+  }
+  return all.rows[0];
 };

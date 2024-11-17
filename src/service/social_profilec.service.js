@@ -1,24 +1,19 @@
 import { pool } from "../database/index.js";
 
-export const createAdress = async (data) => {
+export const createScProfiles = async (data) => {
   try {
-    const currentAdress = await findAdress("title", data);
+    const currentProfile = await findAdress("platform", data);
     // console.log(currentAdress);
-    if (currentAdress) {
-      throw new Error("Adress already created");
+    if (currentProfile) {
+      throw new Error("already created");
     }
     const queryString = `
-    insert into adresses(title, adressline_link_1, adressline_link_2, country, city, pastal_code, phone_number, user_id)
-    values($1, $2, $3, $4, $5, $6, $7, $8)
+    insert into PROFILES(platform, platform_user, user_id)
+    values($1, $2, $3)
     RETURNING *`;
     const result = await pool.query(queryString, [
-      data.title,
-      data.adressline_link_1,
-      data.adressline_link_2,
-      data.country,
-      data.city,
-      data.pastal_code,
-      data.phone_number,
+      data.platform,
+      data.platform_user,
       data.user_id,
     ]);
 
@@ -28,10 +23,10 @@ export const createAdress = async (data) => {
   }
 };
 
-export const getAllAdress = async () => {
+export const getAllScProfiles = async () => {
   try {
     const queryString = `
-    select * from adresses`;
+    select * from PROFILES`;
     const result = await pool.query(queryString, []);
 
     return result.rows;
@@ -43,14 +38,14 @@ export const getAllAdress = async () => {
 export const findAdress = async (type, data) => {
   let queryString = "";
   switch (type) {
-    case "title":
-      queryString = `select * from adresses where title = $1`;
+    case "platform":
+      queryString = `select * from PROFILES where platform = $1`;
       break;
     case "id":
-      queryString = `select * from adresses where id = $1`;
+      queryString = `select * from PROFILES where id = $1`;
       break;
     default:
-      queryString = `select * from adresses`;
+      queryString = `select * from PROFILES`;
       break;
   }
   const result = await pool.query(queryString, [data]);
@@ -58,45 +53,41 @@ export const findAdress = async (type, data) => {
   return result.rows[0];
 };
 
-
 //ozgina kamchiliklari bor nimadaligini topolmadim....
-export const getByIdAdress = async (userId) => {
+export const getByIdScProfiles = async (userId) => {
   const queryString = `
-  select * from adresses where id = $1`;
+  select * from PROFILES where id = $1`;
   const all = await pool.query(queryString, [userId]);
-  console.log((all));
+  // console.log(all);
   if (!all) {
-    throw new Error("Adress is not found!!!");
+    throw new Error("profile is not found!!!");
   }
   return all.rows[0];
 };
 
-
-
-export const updateAdress = async (id, adresses) => {
+export const updateScProfiles = async (id, profile) => {
   const queryString = `
-    UPDATE adresses
-    SET title = $1, country = $2, city = $3
-    WHERE id = $4
+    UPDATE PROFILES
+    SET platform = $1, platform_user = $2
+    WHERE id = $3
     RETURNING *;
   `;
   const update = await findAdress("id", id);
   // console.log(update);
   if (!update) {
-    throw new Error("User not found");
+    throw new Error("profile not found");
   }
   const result = await pool.query(queryString, [
-    adresses.title || update.title,
-    adresses.country || update.country,
-    adresses.city || update.city,
+    profile.platform || update.platform,
+    profile.platform_user || update.platform_user,
     id || update.id,
   ]);
   return result.rows[0];
 };
 
-export const deleteAdress = async (adressId) => {
+export const deleteScProfiles = async (adressId) => {
   const queryString = `
-    DELETE FROM adresses
+    DELETE FROM PROFILES
     WHERE id = $1
     RETURNING *;
   `;

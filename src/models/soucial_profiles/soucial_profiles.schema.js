@@ -1,5 +1,5 @@
-// import pool from '../../database/index.js'
-// import { logger } from '../../utils/logger.js'
+import { pool } from '../../database/index.js';
+import { logger } from '../../utils/logger.js'
 
 export const createProfiele = async () => {
     try {

@@ -196,3 +196,251 @@
 [31m  level: 'error',[39m
 [31m  timestamp: '2024-11-16T21:34:51.950Z'[39m
 [31m}[39m
+[31m{[39m
+[31m  length: 238,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '08P01',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'postgres.c',[39m
+[31m  line: '1736',[39m
+[31m  routine: 'exec_bind_message',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-16T21:36:12.773Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 238,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '08P01',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'postgres.c',[39m
+[31m  line: '1736',[39m
+[31m  routine: 'exec_bind_message',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T03:59:48.360Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 238,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '08P01',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'postgres.c',[39m
+[31m  line: '1736',[39m
+[31m  routine: 'exec_bind_message',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T04:00:10.514Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 151,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '4',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T04:02:33.318Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 151,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '4',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T04:04:18.282Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 453,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '23502',[39m
+[31m  detail: 'Ошибочная строка содержит (7, zolim, zolo@gmail.com, $2b$10$U2/QRapItyQRHpBlt/fUCe9EFu1WWmlpuNBqXAO7V76dil4w6R/mi, admin, null, null, null, 000000, f, 2024-11-17 00:44:56.888965, 2024-11-17 00:44:56.888965).',[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: 'public',[39m
+[31m  table: 'users',[39m
+[31m  column: 'username',[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'execMain.c',[39m
+[31m  line: '1987',[39m
+[31m  routine: 'ExecConstraints',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T04:09:59.986Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 453,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '23502',[39m
+[31m  detail: 'Ошибочная строка содержит (7, zolim, zolo@gmail.com, $2b$10$U2/QRapItyQRHpBlt/fUCe9EFu1WWmlpuNBqXAO7V76dil4w6R/mi, admin, null, null, null, 000000, f, 2024-11-17 00:44:56.888965, 2024-11-17 00:44:56.888965).',[39m
+[31m  hint: undefined,[39m
+[31m  position: undefined,[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: 'public',[39m
+[31m  table: 'users',[39m
+[31m  column: 'username',[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'execMain.c',[39m
+[31m  line: '1987',[39m
+[31m  routine: 'ExecConstraints',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T04:10:10.499Z'[39m
+[31m}[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:18:27.641Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:18:27.650Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:20:49.150Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:20:49.154Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:21:11.627Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T04:21:11.630Z' }[39m
+[32m{[39m
+[32m  level: 'info',[39m
+[32m  message: 'Message sent: %s',[39m
+[32m  timestamp: '2024-11-17T04:21:39.904Z'[39m
+[32m}[39m
+[32m{[39m
+[32m  level: 'info',[39m
+[32m  message: 'Message sent: %s',[39m
+[32m  timestamp: '2024-11-17T04:21:56.037Z'[39m
+[32m}[39m
+[32m{[39m
+[32m  level: 'info',[39m
+[32m  message: 'Message sent: %s',[39m
+[32m  timestamp: '2024-11-17T04:27:27.933Z'[39m
+[32m}[39m
+[31m{ level: 'error', timestamp: '2024-11-17T15:36:02.191Z' }[39m
+[31m{ level: 'error', timestamp: '2024-11-17T15:36:02.198Z' }[39m
+[32m{[39m
+[32m  level: 'info',[39m
+[32m  message: 'Message sent: %s',[39m
+[32m  timestamp: '2024-11-17T15:36:44.926Z'[39m
+[32m}[39m
+[31m{[39m
+[31m  length: 159,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '146',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T18:24:07.831Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 159,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '146',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T18:30:05.625Z'[39m
+[31m}[39m
+[31m{[39m
+[31m  length: 159,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '146',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-17T18:33:23.292Z'[39m
+[31m}[39m
