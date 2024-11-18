@@ -444,3 +444,25 @@
 [31m  level: 'error',[39m
 [31m  timestamp: '2024-11-17T18:33:23.292Z'[39m
 [31m}[39m
+[31m{[39m
+[31m  length: 153,[39m
+[31m  name: 'error',[39m
+[31m  severity: 'ОШИБКА',[39m
+[31m  code: '42601',[39m
+[31m  detail: undefined,[39m
+[31m  hint: undefined,[39m
+[31m  position: '152',[39m
+[31m  internalPosition: undefined,[39m
+[31m  internalQuery: undefined,[39m
+[31m  where: undefined,[39m
+[31m  schema: undefined,[39m
+[31m  table: undefined,[39m
+[31m  column: undefined,[39m
+[31m  dataType: undefined,[39m
+[31m  constraint: undefined,[39m
+[31m  file: 'scan.l',[39m
+[31m  line: '1248',[39m
+[31m  routine: 'scanner_yyerror',[39m
+[31m  level: 'error',[39m
+[31m  timestamp: '2024-11-18T06:30:14.249Z'[39m
+[31m}[39m
